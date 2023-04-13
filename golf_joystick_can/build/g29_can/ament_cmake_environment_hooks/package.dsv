@@ -1,4 +1,0 @@
-source;share/g29_can/local_setup.bash
-source;share/g29_can/local_setup.dsv
-source;share/g29_can/local_setup.sh
-source;share/g29_can/local_setup.zsh

@@ -1,0 +1,8 @@
+{
+  "package_name": "wiimote_msgs",
+  "non_idl_tuples": [
+    "/home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote_msgs:msg/IrSourceInfo.msg",
+    "/home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote_msgs:msg/State.msg",
+    "/home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote_msgs:msg/TimedSwitch.msg"
+  ]
+}

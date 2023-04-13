@@ -1,0 +1,114 @@
+[0.005s] Invoking command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote': AMENT_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote -DCMAKE_INSTALL_PREFIX=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote
+[0.038s] -- The C compiler identification is GNU 11.3.0
+[0.073s] -- The CXX compiler identification is GNU 11.3.0
+[0.078s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.126s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.126s] -- Detecting C compile features
+[0.126s] -- Detecting C compile features - done
+[0.129s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.187s] -- Detecting CXX compile features - done
+[0.193s] -- Found bluetooth library.
+[0.193s] -- Found bluetooth header.
+[0.194s] -- Found cwiid library.
+[0.194s] -- Found cwiid header.
+[0.195s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.366s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.383s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.385s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.390s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.488s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.523s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.524s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.577s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.703s] -- Found rclcpp_components: 16.0.1 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.755s] -- Found rclcpp_lifecycle: 16.0.1 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.785s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.842s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.854s] -- Found wiimote_msgs: 3.1.0 (/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake)
+[0.912s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.962s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.963s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.963s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote/include>
+[0.963s] -- Configured cppcheck exclude dirs and/or files: 
+[0.964s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.964s] -- Configured cpplint exclude dirs and/or files: 
+[0.964s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.964s] -- Added test 'lint_cmake' to check CMake code style
+[0.964s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.965s] -- Added test 'uncrustify' to check C / C++ code style
+[0.965s] -- Configured uncrustify additional arguments: 
+[0.966s] -- Added test 'xmllint' to check XML markup files
+[0.967s] -- Configuring done
+[0.979s] -- Generating done
+[0.980s] -- Build files have been written to: /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote
+[0.988s] Invoked command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote -DCMAKE_INSTALL_PREFIX=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote
+[0.988s] Invoking command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote': AMENT_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote -- -j20 -l20
+[1.014s] [ 44%] [32mBuilding CXX object CMakeFiles/wiimote_lib.dir/src/stat_vector_3d.cpp.o[0m
+[1.015s] [ 44%] [32mBuilding CXX object CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o[0m
+[1.015s] [ 44%] [32mBuilding CXX object CMakeFiles/teleop_wiimote_node.dir/rclcpp_components/node_main_teleop_wiimote_node.cpp.o[0m
+[1.015s] [ 44%] [32mBuilding CXX object CMakeFiles/wiimote_node.dir/rclcpp_components/node_main_wiimote_node.cpp.o[0m
+[1.015s] [ 55%] [32mBuilding CXX object CMakeFiles/wiimote_lib.dir/src/wiimote_controller.cpp.o[0m
+[4.051s] [ 66%] [32m[1mLinking CXX executable wiimote_node[0m
+[4.061s] [ 77%] [32m[1mLinking CXX executable teleop_wiimote_node[0m
+[4.199s] [ 77%] Built target wiimote_node
+[4.213s] [ 77%] Built target teleop_wiimote_node
+[11.629s] [ 88%] [32m[1mLinking CXX shared library libwiimote_lib.so[0m
+[12.086s] [ 88%] Built target wiimote_lib
+[12.393s] [100%] [32m[1mLinking CXX shared library libteleop_wiimote.so[0m
+[12.790s] [100%] Built target teleop_wiimote
+[12.802s] Invoked command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote -- -j20 -l20
+[12.820s] Invoking command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote': AMENT_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote
+[12.824s] -- Install configuration: ""
+[12.824s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/wiimote/wiimote_node
+[12.825s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/wiimote/wiimote_node" to ""
+[12.825s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/wiimote/teleop_wiimote_node
+[12.825s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/wiimote/teleop_wiimote_node" to ""
+[12.825s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/libwiimote_lib.so
+[12.830s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/libwiimote_lib.so" to ""
+[12.830s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/libteleop_wiimote.so
+[12.836s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/libteleop_wiimote.so" to ""
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/include/wiimote
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/include/wiimote/wiimote
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/include/wiimote/wiimote/teleop_wiimote.hpp
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/include/wiimote/wiimote/wiimote_controller.hpp
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/include/wiimote/wiimote/stat_vector_3d.hpp
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/launch
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/launch/feedback_test.launch.py
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/launch/wiimote_lifecycle.launch.py
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/launch/turtlesim.launch.py
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/config
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/config/teleop_wiimote_params.yaml
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/config/wiimote_params.yaml
+[12.836s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/wiimote/wiimote_node
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/lib/wiimote/feedback_tester.py
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/ament_index/resource_index/package_run_dependencies/wiimote
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/ament_index/resource_index/parent_prefix_path/wiimote
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/environment/ament_prefix_path.sh
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/environment/ament_prefix_path.dsv
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/environment/path.sh
+[12.836s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/environment/path.dsv
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/local_setup.bash
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/local_setup.sh
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/local_setup.zsh
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/local_setup.dsv
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/package.dsv
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/ament_index/resource_index/packages/wiimote
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/ament_index/resource_index/rclcpp_components/wiimote
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/export_wiimoteExport.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/export_wiimoteExport-noconfig.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/wiimote-extras.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/ament_cmake_export_targets-extras.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/wiimoteConfig.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/cmake/wiimoteConfig-version.cmake
+[12.837s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote/share/wiimote/package.xml
+[12.838s] Invoked command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote' returned '0': AMENT_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote

@@ -1,0 +1,284 @@
+[0.013s] Invoking command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs
+[0.045s] -- The C compiler identification is GNU 11.3.0
+[0.078s] -- The CXX compiler identification is GNU 11.3.0
+[0.083s] -- Detecting C compiler ABI info
+[0.122s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.176s] -- Detecting CXX compiler ABI info - done
+[0.183s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.183s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.342s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.401s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.404s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.682s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.956s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.083s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.084s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.101s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.101s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.101s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.116s] -- Found PythonExtra: .so  
+[1.158s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.159s] -- Added test 'lint_cmake' to check CMake code style
+[1.159s] -- Added test 'xmllint' to check XML markup files
+[1.161s] -- Configuring done
+[1.185s] -- Generating done
+[1.186s] -- Build files have been written to: /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs
+[1.193s] Invoked command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bayram/projects/LeoDrive_ws/joystick_ros2/src/joystick_drivers/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs
+[1.194s] Invoking command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs -- -j20 -l20
+[1.217s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.222s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.230s] [  4%] Built target ament_cmake_python_copy_wiimote_msgs
+[1.401s] running egg_info
+[1.402s] creating wiimote_msgs.egg-info
+[1.402s] writing wiimote_msgs.egg-info/PKG-INFO
+[1.402s] writing dependency_links to wiimote_msgs.egg-info/dependency_links.txt
+[1.402s] writing top-level names to wiimote_msgs.egg-info/top_level.txt
+[1.402s] writing manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[1.403s] reading manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[1.404s] writing manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[1.422s] [  4%] Built target ament_cmake_python_build_wiimote_msgs_egg
+[1.785s] [ 10%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_c.dir/rosidl_generator_c/wiimote_msgs/msg/detail/state__functions.c.o[0m
+[1.785s] [ 10%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_c.dir/rosidl_generator_c/wiimote_msgs/msg/detail/timed_switch__functions.c.o[0m
+[1.786s] [ 10%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_c.dir/rosidl_generator_c/wiimote_msgs/msg/detail/ir_source_info__functions.c.o[0m
+[1.818s] [ 10%] Built target wiimote_msgs__cpp
+[1.825s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.825s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.827s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.846s] [ 19%] [32m[1mLinking C shared library libwiimote_msgs__rosidl_generator_c.so[0m
+[1.883s] [ 19%] Built target wiimote_msgs__rosidl_generator_c
+[1.892s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.892s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.893s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.397s] [ 27%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wiimote_msgs/msg/detail/dds_fastrtps/ir_source_info__type_support.cpp.o[0m
+[2.399s] [ 31%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wiimote_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[2.400s] [ 31%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wiimote_msgs/msg/detail/dds_fastrtps/timed_switch__type_support.cpp.o[0m
+[2.477s] [ 38%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wiimote_msgs/msg/ir_source_info__type_support.cpp.o[0m
+[2.477s] [ 38%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wiimote_msgs/msg/timed_switch__type_support.cpp.o[0m
+[2.477s] [ 38%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wiimote_msgs/msg/state__type_support.cpp.o[0m
+[2.502s] [ 40%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wiimote_msgs/msg/detail/ir_source_info__type_support.cpp.o[0m
+[2.504s] [ 44%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wiimote_msgs/msg/detail/state__type_support.cpp.o[0m
+[2.504s] [ 44%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wiimote_msgs/msg/detail/timed_switch__type_support.cpp.o[0m
+[2.782s] [ 46%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_cpp.so[0m
+[2.811s] [ 46%] Built target wiimote_msgs__rosidl_typesupport_cpp
+[2.855s] [ 48%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wiimote_msgs/msg/ir_source_info__type_support.cpp.o[0m
+[2.855s] [ 53%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wiimote_msgs/msg/timed_switch__type_support.cpp.o[0m
+[2.855s] [ 53%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/wiimote_msgs/msg/state__type_support.cpp.o[0m
+[2.888s] [ 55%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_c.so[0m
+[2.890s] [ 61%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wiimote_msgs/msg/detail/state__type_support.c.o[0m
+[2.890s] [ 61%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wiimote_msgs/msg/detail/ir_source_info__type_support.c.o[0m
+[2.890s] [ 61%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wiimote_msgs/msg/detail/timed_switch__type_support.c.o[0m
+[2.915s] [ 63%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wiimote_msgs/msg/detail/ir_source_info__type_support_c.cpp.o[0m
+[2.917s] [ 68%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wiimote_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[2.917s] [ 68%] [32mBuilding CXX object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wiimote_msgs/msg/detail/timed_switch__type_support_c.cpp.o[0m
+[2.929s] [ 68%] Built target wiimote_msgs__rosidl_typesupport_c
+[2.951s] [ 70%] [32m[1mLinking C shared library libwiimote_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.957s] [ 72%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.981s] [ 72%] Built target wiimote_msgs__rosidl_typesupport_introspection_c
+[3.013s] [ 74%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.041s] [ 74%] Built target wiimote_msgs__rosidl_typesupport_introspection_cpp
+[3.089s] [ 74%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_cpp
+[3.224s] [ 76%] [32m[1mLinking CXX shared library libwiimote_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.273s] [ 76%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_c
+[3.285s] [ 76%] Built target wiimote_msgs
+[3.297s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.289s] [ 78%] Built target wiimote_msgs__py
+[4.301s] [ 82%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_py.dir/rosidl_generator_py/wiimote_msgs/msg/_ir_source_info_s.c.o[0m
+[4.301s] [ 82%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_py.dir/rosidl_generator_py/wiimote_msgs/msg/_state_s.c.o[0m
+[4.301s] [ 85%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_generator_py.dir/rosidl_generator_py/wiimote_msgs/msg/_timed_switch_s.c.o[0m
+[4.384s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/libwiimote_msgs__rosidl_generator_py.so[0m
+[4.409s] [ 87%] Built target wiimote_msgs__rosidl_generator_py
+[4.421s] [ 91%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.421s] [ 91%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.421s] [ 93%] [32mBuilding C object CMakeFiles/wiimote_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.484s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.484s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.484s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.508s] [100%] Built target wiimote_msgs__rosidl_typesupport_c__pyext
+[4.508s] [100%] Built target wiimote_msgs__rosidl_typesupport_introspection_c__pyext
+[4.508s] [100%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.515s] Invoked command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs -- -j20 -l20
+[4.557s] Invoking command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs
+[4.561s] -- Install configuration: ""
+[4.561s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/ament_index/resource_index/rosidl_interfaces/wiimote_msgs
+[4.561s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.561s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.561s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/state.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__struct.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__struct.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__functions.c
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__struct.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__functions.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__functions.c
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__functions.c
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.h
+[4.562s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__functions.h
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__functions.h
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/ir_source_info.h
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/timed_switch.h
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/library_path.sh
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/library_path.dsv
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_generator_c.so
+[4.563s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_generator_c.so" to ""
+[4.563s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.563s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.563s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.563s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_fastrtps_c.h
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_fastrtps_c.h
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_fastrtps_c.so
+[4.564s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.564s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.564s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/state.hpp
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/ir_source_info.hpp
+[4.564s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/timed_switch.hpp
+[4.564s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__traits.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__traits.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__builder.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__traits.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__struct.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__builder.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__builder.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__struct.hpp
+[4.565s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__struct.hpp
+[4.565s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.565s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.565s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.566s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[4.566s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/dds_fastrtps
+[4.566s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.566s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.566s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.566s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.566s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.566s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.566s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.566s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.c
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.c
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.c
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_introspection_c.h
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_introspection_c.h
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_introspection_c.so
+[4.567s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_c.so
+[4.567s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_c.so" to ""
+[4.567s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.567s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.567s] -- Up-to-date: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.cpp
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.cpp
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.cpp
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_introspection_cpp.so
+[4.567s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_cpp.so
+[4.567s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_cpp.so" to ""
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/pythonpath.sh
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/pythonpath.dsv
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/dependency_links.txt
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/top_level.txt
+[4.567s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/SOURCES.txt
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/PKG-INFO
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/libwiimote_msgs__rosidl_generator_py.so
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_ir_source_info_s.c
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_ir_source_info.py
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_timed_switch_s.c
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_state_s.c
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_state.py
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_timed_switch.py
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/__init__.py
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_c.c
+[4.568s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/__init__.py
+[4.591s] Listing '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs'...
+[4.591s] Compiling '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/__init__.py'...
+[4.591s] Listing '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg'...
+[4.591s] Compiling '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/__init__.py'...
+[4.591s] Compiling '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_ir_source_info.py'...
+[4.592s] Compiling '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_state.py'...
+[4.592s] Compiling '/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_timed_switch.py'...
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.595s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.595s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.595s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_generator_py.so
+[4.595s] -- Set runtime path of "/home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_generator_py.so" to ""
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/msg/IrSourceInfo.idl
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/msg/State.idl
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/msg/TimedSwitch.idl
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/msg/IrSourceInfo.msg
+[4.595s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/msg/State.msg
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/msg/TimedSwitch.msg
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/ament_index/resource_index/package_run_dependencies/wiimote_msgs
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/ament_index/resource_index/parent_prefix_path/wiimote_msgs
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/ament_prefix_path.sh
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/ament_prefix_path.dsv
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/path.sh
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/environment/path.dsv
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/local_setup.bash
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/local_setup.sh
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/local_setup.zsh
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/local_setup.dsv
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/package.dsv
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/ament_index/resource_index/packages/wiimote_msgs
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_cExport.cmake
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_cppExport.cmake
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.596s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cExport.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cppExport.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_pyExport.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgsConfig.cmake
+[4.597s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgsConfig-version.cmake
+[4.598s] -- Installing: /home/bayram/projects/LeoDrive_ws/joystick_ros2/install/wiimote_msgs/share/wiimote_msgs/package.xml
+[4.599s] Invoked command in '/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bayram/projects/LeoDrive_ws/joystick_ros2/build/wiimote_msgs

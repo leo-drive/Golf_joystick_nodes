@@ -1,0 +1,10 @@
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/uninstall.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/joy_linux_uninstall.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/joy_linux_node.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/test.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/edit_cache.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/rebuild_cache.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/list_install_components.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/install.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/install/local.dir
+/home/bayram/projects/LeoDrive_ws/joystick_ros2/build/joy_linux/CMakeFiles/install/strip.dir
